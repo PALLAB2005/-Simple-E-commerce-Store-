@@ -1,0 +1,2 @@
+-- SQLite schema is applied by backend/config/database.js.
+-- This file documents the required tables for local inspection and deployments.

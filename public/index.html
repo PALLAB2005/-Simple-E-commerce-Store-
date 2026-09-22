@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexCart | Home</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="logo" href="/">NexCart</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/orders.html">My Orders</a>
+    <a href="/cart.html">Cart <span id="cartCount" class="badge">0</span></a>
+    <a class="btn secondary" href="/admin/login.html">Admin Login</a>
+    <span id="authArea"></span>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">SMART • SIMPLE • SECURE</p>
+      <h1>Everything you need, in one place.</h1>
+      <p>Explore electronics, fashion and home essentials with a simple shopping experience.</p>
+      <a class="btn primary" href="#products">Start Shopping</a>
+    </div>
+  </section>
+
+  <section class="container" id="products">
+    <div class="section-heading">
+      <div>
+        <h2>Our Products</h2>
+        <p>Find something you like and add it to your cart.</p>
+      </div>
+      <div class="filters">
+        <input id="search" type="search" placeholder="Search products...">
+        <select id="category">
+          <option>All</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="productGrid" class="product-grid"></div>
+  </section>
+</main>
+
+<footer>© 2026 NexCart — College Full Stack Project</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>

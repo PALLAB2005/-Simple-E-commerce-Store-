@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | NexCart</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="logo" href="/">NexCart</a>
+  <nav><a href="/">Home</a><a href="/cart.html">Cart <span id="cartCount" class="badge">0</span></a></nav>
+</header>
+
+<main class="auth-page">
+  <form id="loginForm" class="auth-card">
+    <h1>Welcome Back</h1>
+    <p>Login to continue shopping.</p>
+    <label>Email</label>
+    <input name="email" type="email" required>
+    <label>Password</label>
+    <input name="password" type="password" required>
+    <button class="btn primary" type="submit">Login</button>
+    <p id="message" class="message"></p>
+    <p>New user? <a href="/register.html">Create an account</a></p>
+  </form>
+</main>
+
+<script src="/js/app.js"></script>
+<script src="/js/auth.js"></script>
+</body>
+</html>
