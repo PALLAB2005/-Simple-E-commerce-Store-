@@ -48,7 +48,7 @@ simple-ecommerce-store/
 │   ├── services/
 │   └── utils/
 ├── database/
-│   ├── store.db           # created or migrated automatically
+│   ├── store.db         
 │   ├── schema.sql
 │   └── seed.js
 ├── admin/
