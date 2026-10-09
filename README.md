@@ -197,6 +197,7 @@ One order can contain multiple products, so a separate table is used to represen
 ## Future Scope
 
 - Payment gateway
+- Admin dashboard 
 - Product reviews and ratings
 - Wishlist
 - Email notifications
